@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire : Validation 0 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/753284b805.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cont-form">
+        <div class="pic-form">
+            <img src="images/6019559.jpg" alt="Collection : Zombies halloween" width="320" height="440">
+        </div>
+        <form action="" method="post">
+            <h1>  REGISTRATION FORM </h1>
+            <div class="form-elem">
+                <div class="row-elem">
+                    <input type="text" name="first-name" id="f-name" placeholder="First name" required>
+                    <input type="text" name="last-name" id="l-name" placeholder="Last Name" required>
+                </div>
+                <div class="elem0">
+                    <input type="text" name="username" id="u-name" placeholder="Username" required>
+                    <span class="fa-regular fa-user"></span>
+                </div>
+                <div class="elem0">
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                    <span class="fa-regular fa-envelope"></span>
+                </div>
+                <div class="elem0">
+                    <select name="gender" id="gender">
+                        <option value="Gender" disabled selected> Gender </option>
+                        <option value="Male"> Male </option>
+                        <option value="Female"> Female </option>
+                    </select>
+                    <span class="fa-solid fa-caret-down"></span> 
+                </div>
+                <div class="elem0">
+                    <input class="element" type="password" name="password" id="password" placeholder="Password">
+                    <span class="fa-solid fa-lock"></span>
+                </div>
+                <div class="elem0">
+                    <input class="element" type="password" name="c-password" id="c-password" placeholder="Confirm Password">
+                    <span class="fa-solid fa-lock"></span>
+                </div>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
