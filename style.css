@@ -91,11 +91,11 @@ select {
     appearance: none;
     color: #7a7c83;
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 0.76em;
 }
 
 ::placeholder {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
 }
 
